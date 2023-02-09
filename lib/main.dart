@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -76,7 +78,7 @@ class _HomePageState extends State<HomePage> {
                         final userCredential = await FirebaseAuth.instance
                             .createUserWithEmailAndPassword(
                                 email: email, password: password);
-                        print(userCredential);
+                        log(userCredential.toString());
                       },
                       child: const Text('Register')),
                 ],
