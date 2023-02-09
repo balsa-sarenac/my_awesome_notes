@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564955386610",
+    "project_id": "my-awesome-notes-dae30",
+    "storage_bucket": "my-awesome-notes-dae30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564955386610:android:8eec0247be70ca3786366b",
+        "android_client_info": {
+          "package_name": "dev.example.my_awesome_notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564955386610-fs8sgpen24vfnsvh85ia57b6qnuvrn4g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtqnt807LIA7eUSnpDTl70DB66D8Nlhbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564955386610-fs8sgpen24vfnsvh85ia57b6qnuvrn4g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
